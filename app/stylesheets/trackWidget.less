@@ -1,0 +1,21 @@
+.track-widget {
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    z-index: 1;
+    .bar {
+        display: block;
+        width: 30px;
+        height: 1px;
+        margin-top: 30px;
+        transition-duration: 400ms;
+        transition-timing-function: ease;
+        border-bottom: 1px solid;
+        font-size: 25px;
+        &.active {
+            width: 40px;
+            line-height: 8px;
+        }
+    }
+
+}

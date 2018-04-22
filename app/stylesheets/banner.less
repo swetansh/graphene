@@ -1,0 +1,83 @@
+@import './trackWidget.less';
+
+.banner-wrapper {
+    font-family: 'DCB';
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .header {
+        font-size: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 10px;
+        z-index: 1;
+        .header-left {
+            display: inline-block;
+            width: 80%;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .header-right {
+            display: inline-block;
+            width: 20%;
+            vertical-align: middle;
+        }
+        .header-item {
+            display: inline-block;
+            padding: 10px 30px;
+            font-size: 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            vertical-align: middle;
+            &.logo {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .logo-wrapper {
+        position: absolute;
+        display: inline-block;
+        height: 115px;
+        top: 110px;
+        left: 291px;
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .main-header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        transform: translate(-50%,-35%);
+        text-transform: uppercase;
+        .first-line {
+            font-size: 70px;
+        }
+
+        .second-line {
+            font-size: 96px;
+            margin-top: -20px;
+        }
+
+        .third-line {
+            font-size: 32px;
+            margin-top: -20px;
+        }
+    }
+
+    .request-info {
+        position: fixed;
+        right: -30px;
+        top: 50%;
+        transform: rotateZ(-90deg);
+        font-size: 20px;
+        text-transform: uppercase;
+        background: #e6e6e6;
+        padding: 10px 15px 3px;
+        cursor: pointer;
+    }
+}

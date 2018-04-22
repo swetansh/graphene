@@ -1,0 +1,41 @@
+{
+  "name": "graphene",
+  "version": "1.0.0",
+  "description": "graphene test",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "babel": "~6.5.2",
+    "babel-cli": "~6.10.1",
+    "babel-core": "~6.9.1",
+    "babel-loader": "~6.2.4",
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "cssesc": "^0.1.0",
+    "file-loader": "^1.1.5",
+    "flatten": "1.0.2",
+    "html-webpack-plugin": "^2.21.0",
+    "http-server": "^0.9.0",
+    "indexes-of": "^1.0.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "node-libs-browser": "^1.0.0",
+    "normalize": "^0.3.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.6.2",
+    "webpack": "~1.13.1",
+    "webpack-dev-server": "~1.14.1",
+    "webpack-merge": "~0.14.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "npm i && webpack && node ./node_modules/http-server/bin/http-server ./build -p 8080 -o"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "react": "15.6.0",
+    "react-dom": "15.6.0",
+    "tapable": "^0.2.4"
+  }
+}
