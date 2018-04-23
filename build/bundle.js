@@ -23796,13 +23796,13 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'animate-box down' },
+	                        { className: 'animate-box down', style: { width: '57%' } },
 	                        _react2.default.createElement(_imageCard2.default, { imageUrl: this.imageUrlA }),
 	                        _react2.default.createElement(_textCard2.default, { text: this.textA, title: this.titleA })
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'animate-box down', style: { marginLeft: '7%' } },
+	                        { className: 'animate-box down', style: { marginLeft: '7%', width: '100%' } },
 	                        _react2.default.createElement(_textCard2.default, { text: this.textB, title: this.titleB }),
 	                        _react2.default.createElement(_imageCard2.default, { imageUrl: this.imageUrlB }),
 	                        _react2.default.createElement(_textCard2.default, { text: this.textC, title: '', color: 'grey' }),
@@ -23810,7 +23810,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'animate-box down', style: { marginLeft: '7%' } },
+	                        { className: 'animate-box down', style: { marginLeft: '7%', width: '100%' } },
 	                        _react2.default.createElement(_textCard2.default, { text: this.textD, title: '', color: 'grey' }),
 	                        _react2.default.createElement(_textCard2.default, { text: '', title: '', color: 'grey' }),
 	                        _react2.default.createElement(_textCard2.default, { text: this.textE, title: this.titleC }),
