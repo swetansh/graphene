@@ -58,27 +58,31 @@
 				}
 			}	
 		}
-		.animate-box-menu {
-			width: 25%;
-		    margin: 0px;
-		    display: inline-block;
-		    transition-duration: 1000ms;
-		    transition-timing-function: ease;
-		    opacity: 1;
-		    &.down {
-		        transform: translate(0px, 5000px);
-		        opacity: 0;
-		    }
-		    &.up {
-		        transform: translate(0px, -5000px);
-		        opacity: 0;
-		        animation-direction:reverse;
-		    }
-		    &:nth-child(3n) {
-		    	transition-delay: 100ms;
-			}
-			&:nth-child(4n) {
-		    	transition-delay: 100ms;
+		.box-table {
+			width: 80%;
+    		margin-left: 10%;
+			.animate-box-menu {
+				width: 25%;
+			    margin: 0px;
+			    display: inline-block;
+			    transition-duration: 1000ms;
+			    transition-timing-function: ease;
+			    opacity: 1;
+			    &.down {
+			        transform: translate(0px, 5000px);
+			        opacity: 0;
+			    }
+			    &.up {
+			        transform: translate(0px, -5000px);
+			        opacity: 0;
+			        animation-direction:reverse;
+			    }
+			    &:nth-child(3n) {
+			    	transition-delay: 100ms;
+				}
+				&:nth-child(4n) {
+			    	transition-delay: 100ms;
+				}
 			}
 		}
 	}

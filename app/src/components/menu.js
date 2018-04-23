@@ -38,7 +38,7 @@ class Menu extends Component {
                             <div className="know-more">KNOW MORE</div>
                         </div>
                     </div>
-                    
+                    <div className="box-table">
                     <div className="animate-box-menu up">
                         <div className="main-title-box">
                             <div className="wrapper-title">
@@ -86,7 +86,7 @@ class Menu extends Component {
                         <MenuTextCard text={this.textI} title={this.titleI}  />
                         <MenuTextCard text={this.textI} title={this.titleJ}  />
                     </div>
-        
+                    </div>
                 </div>
             </div>
         )
