@@ -89,8 +89,17 @@ class App extends Component {
             else if(section.value == 1){
                 window.scrollTo(0, this.bannerHeight);
             }
+            else if(section.value == 2){
+                window.scrollTo(0, this.meetWrapperHeight);
+            }
             else if(section.value == 3){
+                window.scrollTo(0, this.locationWrapperHeight);
+            }
+            else if(section.value == 4){
                 window.scrollTo(0, this.menuWrapperHeight);
+            }
+            else if(section.value == 5){
+                window.scrollTo(0, this.recipeWrapperHeight);
             }
         
         }

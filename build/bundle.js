@@ -23399,8 +23399,14 @@
 	                    window.scrollTo(0, 0);
 	                } else if (section.value == 1) {
 	                    window.scrollTo(0, this.bannerHeight);
+	                } else if (section.value == 2) {
+	                    window.scrollTo(0, this.meetWrapperHeight);
 	                } else if (section.value == 3) {
+	                    window.scrollTo(0, this.locationWrapperHeight);
+	                } else if (section.value == 4) {
 	                    window.scrollTo(0, this.menuWrapperHeight);
+	                } else if (section.value == 5) {
+	                    window.scrollTo(0, this.recipeWrapperHeight);
 	                }
 	            }
 	        }
@@ -23592,17 +23598,17 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "header-item" },
+	                        { className: "header-item", "data-section": "2" },
 	                        "location"
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "header-item" },
+	                        { className: "header-item", "data-section": "3" },
 	                        "our menu"
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "header-item" },
+	                        { className: "header-item", "data-section": "4" },
 	                        "recipes"
 	                    )
 	                ),
@@ -23611,7 +23617,7 @@
 	                    { className: "header-right" },
 	                    _react2.default.createElement(
 	                        "div",
-	                        { className: "header-item" },
+	                        { className: "header-item", "data-section": "5" },
 	                        "contact"
 	                    ),
 	                    _react2.default.createElement(
