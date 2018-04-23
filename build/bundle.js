@@ -23327,7 +23327,7 @@
 	        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
 
 	        _this.state = {
-	            sectionCount: 7,
+	            sectionCount: 6,
 	            activeSection: 0
 	        };
 
@@ -23400,13 +23400,13 @@
 	                } else if (section.value == 1) {
 	                    window.scrollTo(0, this.bannerHeight);
 	                } else if (section.value == 2) {
-	                    window.scrollTo(0, this.meetWrapperHeight);
+	                    window.scrollTo(0, this.meetWrapperHeight + this.bannerHeight);
 	                } else if (section.value == 3) {
-	                    window.scrollTo(0, this.locationWrapperHeight);
+	                    window.scrollTo(0, this.locationWrapperHeight + this.meetWrapperHeight + this.bannerHeight);
 	                } else if (section.value == 4) {
-	                    window.scrollTo(0, this.menuWrapperHeight);
+	                    window.scrollTo(0, this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight + this.bannerHeight);
 	                } else if (section.value == 5) {
-	                    window.scrollTo(0, this.recipeWrapperHeight);
+	                    window.scrollTo(0, this.recipeWrapperHeight + this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight + this.bannerHeight);
 	                }
 	            }
 	        }
