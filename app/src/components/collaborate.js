@@ -32,11 +32,11 @@ class Collaborate extends Component {
                         <div className="form-page">
                             <form onSubmit={this.handleSubmit}>
                             <div className="details form-group">
-                                <label for="name">Name:</label>
+                                <label for="name">NAME:</label>
                                 <input type="text" className="form-control" id="name" onChange={this.handleChange} style={{border:'none',background:'transparent'}} />
                               </div>
                               <div className="details form-group">
-                                <label for="surname">Surname:</label>
+                                <label for="surname">SURNAME:</label>
                                 <input type="text" className="form-control" id="surname" onChange={this.handleChange} style={{border:'none',background:'transparent'}} />
                               </div>
                               <div className="details form-group">
@@ -44,12 +44,12 @@ class Collaborate extends Component {
                                 <input type="number" className="form-control" id="phone" onChange={this.handleChange} style={{border:'none',background:'transparent'}} />
                               </div>
                               <div className="details form-group">
-                                <label for="email">Email address:</label>
+                                <label for="email">EMAIL ADDRESS:</label>
                                 <input type="email" className="form-control" id="email" onChange={this.handleChange} style={{border:'none',background:'transparent'}} />
                               </div>
                 
                               <div className="details form-group">
-                                  <label for="exp">Experience:</label>
+                                  <label for="exp">EXPERIENCE:</label>
                                   <select className="form-control" id="sel1" style={{height:'auto',border:'none',background:'transparent'}}>
                                     <option>1</option>
                                     <option>2</option>
@@ -58,7 +58,7 @@ class Collaborate extends Component {
                                   </select>
                                 </div>
                               <div className="details form-group">
-                                  <label for="exp">Where did you hear us?:</label>
+                                  <label for="exp">WHERE DID YOU HEAR US?:</label>
                                   <select className="form-control" id="sel1" style={{height:'auto',border:'none',background:'transparent'}}>
                                     <option>1</option>
                                     <option>2</option>

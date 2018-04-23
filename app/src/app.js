@@ -49,22 +49,22 @@ class App extends Component {
                 activeSection : 1
             })
         }
-        else if(this.locationWrapperHeight + this.meetWrapperHeight > window.scrollY){
+        else if(this.locationWrapperHeight + this.meetWrapperHeight + this.limit > window.scrollY){
             this.setState({
                 activeSection : 2
             })
         }
-        else if(this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight > window.scrollY){
+        else if(this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight + this.limit > window.scrollY){
             this.setState({
                 activeSection : 3
             })
         }
-        else if(this.recipeWrapperHeight + this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight > window.scrollY){
+        else if(this.recipeWrapperHeight + this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight + this.limit> window.scrollY){
             this.setState({
                 activeSection : 4
             })
         }
-        else if(this.collaborateHeight + this.recipeWrapperHeight + this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight > window.scrollY){
+        else if(this.collaborateHeight + this.recipeWrapperHeight + this.menuWrapperHeight + this.locationWrapperHeight + this.meetWrapperHeight + this.limit> window.scrollY){
             this.setState({
                 activeSection : 5
             })

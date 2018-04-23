@@ -42,14 +42,14 @@ class Meet extends Component {
                         <TextCard text={this.textA} title={this.titleA}  />
                     </div>
 
-                    <div className="animate-box down">
+                    <div className="animate-box down" style={{marginLeft:'7%'}}>
                         <TextCard text={this.textB} title={this.titleB}  />
                         <ImageCard imageUrl={this.imageUrlB} />
                         <TextCard text={this.textC} title=""  color="grey" />
                         <TextCard text="" title=""  color="grey" />                        
                     </div>
 
-                    <div className="animate-box down">
+                    <div className="animate-box down" style={{marginLeft:'7%'}}>
                         <TextCard text={this.textD} title="" color="grey" />
                         <TextCard text="" title="" color="grey" />
                         <TextCard text={this.textE} title={this.titleC} />

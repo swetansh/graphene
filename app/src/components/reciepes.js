@@ -58,7 +58,7 @@ class Recipes extends Component {
                         <ReciepeImageCard imageUrl={this.imageUrlA} /><br />
                         <RecipeTextCard text={this.textA} title={this.titleA}  />
                     </div>
-                    <div style={{float:'right',margin:'10px'}}>
+                    <div style={{float:'right',margin:'1%'}}>
                     <img src="assets/back.png" style={{float:'left'}} />
                     <img src="assets/next.png" style={{float:'right'}} />
                     </div>
